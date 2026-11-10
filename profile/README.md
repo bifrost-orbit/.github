@@ -32,6 +32,10 @@ Finished projects to copy with **Use this template**, each reading its pages fro
 | Apple platforms | [cms-starter-apple](https://github.com/bifrost-orbit/cms-starter-apple) |
 | Android | [cms-starter-android](https://github.com/bifrost-orbit/cms-starter-android) |
 
+### GitHub Action
+
+[cms-orbit-action](https://github.com/bifrost-orbit/cms-orbit-action) keeps your website's types in sync with your space: it opens a pull request when the schema changes, or fails a pull request whose types are out of date.
+
 ## Careers Orbit
 
 Hiring: live jobs on your own site, applications with a CV, and the candidate portal.
