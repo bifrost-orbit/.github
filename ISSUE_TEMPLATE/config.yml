@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/bifrost-orbit/.github/discussions
+    about: Questions about using an SDK or starter.
+  - name: Read the documentation
+    url: https://docs.bifrostorbit.com
+    about: Guides and references for every SDK and starter.
+  - name: Report a security problem
+    url: https://github.com/bifrost-orbit/.github/security/policy
+    about: Please don't report security problems in public issues.

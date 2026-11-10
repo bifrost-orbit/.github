@@ -1,0 +1,30 @@
+name: Bug
+description: Something doesn't work as it should.
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Which version of the SDK or starter are you using?
+      placeholder: "0.13.1"
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce it
+      description: A small code example or the steps that show the problem.
+      render: text
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Your runtime and framework versions, for example Node 24 and Next.js 16.
